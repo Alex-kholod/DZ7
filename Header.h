@@ -10,7 +10,12 @@ private:
 	double x = 0;
 	double y = 0;
 public:
-	Vector(double x, double y)
+	Vector()
+	{
+		this->x = 0;
+		this->y = 0;
+	}
+	Vector(double x = 0, double y = 0)
 	{
 		this->x = x;
 		this->y = y;
